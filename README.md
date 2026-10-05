@@ -253,7 +253,7 @@ git log --graph --oneline
 ```
 **Kết quả hiển thị đồ thị nhánh thực tế:**
 ```text
-*   57139ef (HEAD -> main) Merge branch 'feature-update' into main: resolve merge conflict in README.md
+*   b1ed265 (HEAD -> main) Merge branch 'feature-update' into main: resolve merge conflict in README.md
 |\  
 | * 51d9767 (feature-update) feat: upgrade system version and staging status on feature-update
 * | 2823ff0 fix: apply emergency security hotfix directly on main
@@ -262,7 +262,7 @@ git log --graph --oneline
 ```
 
 *Phân tích kết quả*:
-- Ký tự `*   57139ef`: Thể hiện commit gộp (Merge Commit).
+- Ký tự `*   b1ed265`: Thể hiện commit gộp (Merge Commit).
 - Ký tự `|\`: Thể hiện nhánh rẽ gồm 2 nhánh tổ tiên: nhánh trái là `main` (`2823ff0`), nhánh phải là `feature-update` (`51d9767`).
 - Ký tự `|/`: Thể hiện điểm hội tụ về tổ tiên chung `4796d55`.
 - Đúng hoàn toàn với kết quả mong đợi trong yêu cầu đề bài!
@@ -275,10 +275,10 @@ git log -n 1
 ```
 **Kết quả:**
 ```text
-commit 57139ef1f9c8d578dfb200b3d5b0d5c4be461715 (HEAD -> main)
+commit b1ed265b4663b89cf0d088654529a144535c0f7c (HEAD -> main)
 Merge: 2823ff0 51d9767
 Author: HoQuocKhai <khaiho6040@gmail.com>
-Date:   Mon Oct 5 21:15:00 2026 +0700
+Date:   Mon Oct 5 21:15:24 2026 +0700
 
     Merge branch 'feature-update' into main: resolve merge conflict in README.md
 ```
