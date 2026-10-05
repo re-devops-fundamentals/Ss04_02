@@ -6,6 +6,6 @@
 - Email: khaiho6040@gmail.com
 
 ## Trạng thái hệ thống
-- Phiên bản: v1.0.0
-- Mô tả: Khởi tạo dự án trên nhánh main với cấu hình ban đầu
-- Trạng thái triển khai: Đang thiết lập môi trường
+- Phiên bản: v1.0.1-hotfix
+- Mô tả: Cập nhật bản vá bảo mật và ổn định trực tiếp trên nhánh chính main
+- Trạng thái triển khai: Đang vận hành trực tiếp trên môi trường Production
